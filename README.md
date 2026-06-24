@@ -6,7 +6,7 @@
 > 跨域评估：DeepCrack / CFD     ·     同源独立训练：GAPs384
 
 ## 1. 环境
-- Python 3.10 + PyTorch 2.3 + CUDA 12.x
+- Python 3.12 + PyTorch 2.3 + CUDA 12.x
 - AutoDL RTX 4090D（24GB）
 
 ```bash
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## 3. 一键流程
 ```bash
-# 1) 生成统一 manifest（5 个数据集都生成，但只用 CRACK500 训练）
+# 1) 生成统一 manifest（5 个数据集都生成，用 CRACK500 和 Crack_seg 训练）
 bash scripts/01_build_manifests.sh
 
 # 2) 用 SAM3 对 CRACK500 train 集离线生成伪标签 + 置信图 + MC variance

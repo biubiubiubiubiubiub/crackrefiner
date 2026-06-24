@@ -1,0 +1,86 @@
+# =====================================================================
+# Ablation A — "Primary only": Dice + BCE_weighted   (2 loss terms)
+#
+# Purpose: establishes the baseline supervision power without ANY
+#          topology / geometry / regularization help.
+#
+# Hypothesis: in-domain F1 should still reach ~0.74 (Dice+BCE is the
+#             standard nnU-Net recipe), but cross-domain — especially
+#             on low-contrast CFD — should be weak.
+# =====================================================================
+
+experiment:
+  name: ablation_A_dice_bce
+  seed: 42
+  output_dir: outputs/ablation/A_dice_bce
+
+data:
+  root: ./data
+  train_manifest: manifests/CRACK500.json
+  val_manifest:   manifests/CRACK500.json
+  pseudo_cache:   outputs/pseudo/CRACK500
+  image_size: 512
+  num_workers: 6
+  min_pseudo_ratio: 0.0005
+  max_pseudo_ratio: 0.35
+
+crossdomain:
+  - {name: DeepCrack, manifest: manifests/DeepCrack.json, split: test}
+  - {name: CFD,       manifest: manifests/CFD.json,       split: test}
+
+teacher:
+  name: sam3
+  ckpt: ./checkpoints/sam3/sam3.pt
+  load_from_HF: false
+  bpe_path: null
+  resolution: 1008
+  confidence_threshold: 0.15
+  binary_threshold:     0.2
+  score_weight:         false
+  max_mask_area_ratio: 0.30
+  min_mask_area_px:    16
+  text_prompts: ["crack"]
+  ensemble_prompts: ["crack", "a crack", "road crack", "pavement crack"]
+  enable_hflip_tta: false
+  autocast_dtype: bfloat16
+  mc_samples: 1
+  device: cuda
+
+student:
+  name: scsegamba_lite
+  in_channels: 3
+  base_channels: 32
+  num_classes: 1
+  edge_branch: true       # net head kept; loss simply ignores it (w_edge=0)
+
+gate:
+  alpha: 1.0
+  beta:  1.0
+  gamma: 1.0
+  sigma_s: 5.0
+  tau: 0.5
+
+# ★ Ablation A: only the two primary terms (legacy TopoSAMLoss path)
+loss:
+  w_dice:         1.0
+  w_bce:          1.0       # weighted by Confidence-Gate reliability r
+  w_skelrecall:   0.0       # — off
+  w_cldice:       0.0       # — off
+  w_dt:           0.0       # — off
+  w_edge:         0.0       # — off
+  w_consistency:  0.0       # — off
+
+train:
+  epochs:         40        # reduced (full used 50; best @ ep26-34 historically)
+  batch_size:     4
+  grad_accum_steps: 2       # effective batch = 8
+  optimizer:      adamw
+  lr:             2.0e-4
+  weight_decay:   1.0e-4
+  scheduler:      cosine
+  warmup_epochs:  3
+  ema_decay:      0.999
+  amp:            true
+  log_every:      50
+  ckpt_every:     10
+  resume:         null

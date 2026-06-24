@@ -1,1 +1,86 @@
 
+# TopoSAM-Crack on CRACK500 (weakly-supervised by SAM3 pseudo labels)
+
+experiment:
+  name: toposam_crack500
+  seed: 42
+  output_dir: outputs/toposam_crack500
+
+data:
+  root: ./data                           # 数据根目录（按需改为绝对路径）
+  train_manifest: manifests/CRACK500.json
+  val_manifest:   manifests/CRACK500.json     # 内部 split=val
+  pseudo_cache:   outputs/pseudo/CRACK500     # SAM3 离线伪标签缓存
+  image_size: 512
+  num_workers: 6
+
+  # ---- 弱监督专用：训练时过滤异常 SAM3 伪标签 ----
+  # 你的 stat_pseudo 显示：6.9% 全空, 0% 过密；P90=0.130, P99=0.20
+  min_pseudo_ratio: 0.0005      # < 0.05% 像素视为"全空" → 跳过 (~155 张)
+  max_pseudo_ratio: 0.35        # > 35% 像素视为 hallucination → 跳过 (0 张)
+
+# 跨域评估数据集（GAPs384 也当跨域：与 CRACK500 域差大，自训练不可行）
+crossdomain:
+  - {name: DeepCrack, manifest: manifests/DeepCrack.json, split: test}
+  - {name: CFD,       manifest: manifests/CFD.json,       split: test}
+
+teacher:
+  name: sam3
+  ckpt: ./checkpoints/sam3/sam3.pt
+  load_from_HF: false
+  bpe_path: null
+  resolution: 1008
+
+  # —— 阈值 + 面积过滤 ——
+  confidence_threshold: 0.15     # SAM3 实例级阈值（≤此值的 instance 被丢弃）
+  binary_threshold:     0.2      # mask 二值化阈值（prob>此值算 1）
+  score_weight:         false    # 是否按 instance score 加权 mask
+                                 #   false: mask 内部≈1.0（激进召回）
+                                 #   true : 按 score 衰减（保守）
+  max_mask_area_ratio: 0.30      # 丢掉占图 >30% 的"整图巨型实例"（修第 7/8 行问题）
+  min_mask_area_px:    16        # 丢掉 <16 px 的噪点
+
+  text_prompts: ["crack"]
+  ensemble_prompts: ["crack", "a crack", "road crack", "pavement crack"]
+  enable_hflip_tta: false        # 开启会让 SAM3 推理时间 ×2
+  autocast_dtype: bfloat16       # SAM3 默认 bf16；不要改成 fp32 否则 OOM
+  mc_samples: 1                  # 保留字段，仅兼容
+  device: cuda
+
+student:
+  name: scsegamba_lite
+  in_channels: 3
+  base_channels: 32
+  num_classes: 1
+  edge_branch: true
+
+gate:
+  alpha: 1.0    # SAM logits sharpness
+  beta:  1.0    # skeleton distance
+  gamma: 1.0    # MC variance
+  sigma_s: 5.0  # px
+  tau: 0.5      # reliable threshold
+
+loss:
+  w_dice: 1.0
+  w_bce: 1.0           # weighted by reliability r
+  w_skelrecall: 0.5
+  w_cldice: 0.5        # NEW: 双向 skeleton-Dice，让 mask 更瘦、precision 更高
+  w_dt: 0.2
+  w_edge: 0.3
+  w_consistency: 0.1   # EMA teacher consistency
+
+train:
+  epochs: 50                 # ↓ 200→50：实测 ep26-34 已达 best=0.7875，后续 26 ep 无提升
+  batch_size: 4              # ↓ 从 8 改 4：BiDirSSM 在 512² 下显存吃紧
+  grad_accum_steps: 2        # 累计 2 步 = 等效 batch=8（不改优化器超参）
+  optimizer: adamw
+  lr: 2.0e-4
+  weight_decay: 1.0e-4
+  scheduler: cosine
+  warmup_epochs: 3           # ↓ 5→3：50 ep 总训不要浪费 10% 在 warmup
+  ema_decay: 0.999
+  amp: true
+  log_every: 50
+  ckpt_every: 10
+  resume: null

@@ -1,0 +1,82 @@
+# =====================================================================
+# Ablation D — "+Geometry (DT + Edge)"
+#              Dice + BCE + clDice + SkelRecall + DT + Edge   (6 terms)
+#
+# Δ vs C: add Distance-Transform regression and Edge-BCE — fine boundary
+#         refinement. Expected to give a SMALL boost (≤ 1-2 ODS).
+# =====================================================================
+
+experiment:
+  name: ablation_D_plus_geom
+  seed: 42
+  output_dir: outputs/ablation/D_plus_geom
+
+data:
+  root: ./data
+  train_manifest: manifests/CRACK500.json
+  val_manifest:   manifests/CRACK500.json
+  pseudo_cache:   outputs/pseudo/CRACK500
+  image_size: 512
+  num_workers: 6
+  min_pseudo_ratio: 0.0005
+  max_pseudo_ratio: 0.35
+
+crossdomain:
+  - {name: DeepCrack, manifest: manifests/DeepCrack.json, split: test}
+  - {name: CFD,       manifest: manifests/CFD.json,       split: test}
+teacher:
+  name: sam3
+  ckpt: ./checkpoints/sam3/sam3.pt
+  load_from_HF: false
+  bpe_path: null
+  resolution: 1008
+  confidence_threshold: 0.15
+  binary_threshold:     0.2
+  score_weight:         false
+  max_mask_area_ratio: 0.30
+  min_mask_area_px:    16
+  text_prompts: ["crack"]
+  ensemble_prompts: ["crack", "a crack", "road crack", "pavement crack"]
+  enable_hflip_tta: false
+  autocast_dtype: bfloat16
+  mc_samples: 1
+  device: cuda
+
+student:
+  name: scsegamba_lite
+  in_channels: 3
+  base_channels: 32
+  num_classes: 1
+  edge_branch: true
+
+gate:
+  alpha: 1.0
+  beta:  1.0
+  gamma: 1.0
+  sigma_s: 5.0
+  tau: 0.5
+
+# ★ Ablation D: C + DT + Edge   (the only thing missing vs Full = Consistency)
+loss:
+  w_dice:         1.0
+  w_bce:          1.0
+  w_skelrecall:   0.5
+  w_cldice:       0.5
+  w_dt:           0.2       # ★ added: distance-transform regression
+  w_edge:         0.3       # ★ added: boundary BCE
+  w_consistency:  0.0       # — off (added in E = our Full)
+
+train:
+  epochs:         40
+  batch_size:     4
+  grad_accum_steps: 2
+  optimizer:      adamw
+  lr:             2.0e-4
+  weight_decay:   1.0e-4
+  scheduler:      cosine
+  warmup_epochs:  3
+  ema_decay:      0.999
+  amp:            true
+  log_every:      50
+  ckpt_every:     10
+  resume:         null

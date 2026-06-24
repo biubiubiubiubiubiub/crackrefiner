@@ -41,7 +41,7 @@ teacher:
   min_mask_area_px:    16        # 丢掉 <16 px 的噪点
 
   text_prompts: ["crack"]
-  ensemble_prompts: ["crack", "a crack", "road crack", "pavement crack"]
+  ensemble_prompts: ["crack", "road crack", "thin crack", "fissure"]
   enable_hflip_tta: false        # 开启会让 SAM3 推理时间 ×2
   autocast_dtype: bfloat16       # SAM3 默认 bf16；不要改成 fp32 否则 OOM
   mc_samples: 1                  # 保留字段，仅兼容

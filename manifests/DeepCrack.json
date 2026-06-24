@@ -1,0 +1,3774 @@
+{
+  "dataset": "DeepCrack",
+  "version": "v1.2",
+  "data_root": "/root/autodl-tmp/crackrefiner/data",
+  "dataset_root": "/root/autodl-tmp/crackrefiner/data/DeepCrack",
+  "weakly_supervised": true,
+  "auto_split": null,
+  "seed": 42,
+  "splits": {
+    "train": [
+      {
+        "image": "DeepCrack/train_img/11111.jpg",
+        "gt": "DeepCrack/train_lab/11111.png",
+        "image_level_label": 1,
+        "source_image_id": "11111",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11112.jpg",
+        "gt": "DeepCrack/train_lab/11112.png",
+        "image_level_label": 1,
+        "source_image_id": "11112",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11113.jpg",
+        "gt": "DeepCrack/train_lab/11113.png",
+        "image_level_label": 1,
+        "source_image_id": "11113",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11114.jpg",
+        "gt": "DeepCrack/train_lab/11114.png",
+        "image_level_label": 1,
+        "source_image_id": "11114",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11115.jpg",
+        "gt": "DeepCrack/train_lab/11115.png",
+        "image_level_label": 1,
+        "source_image_id": "11115",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11116-1.jpg",
+        "gt": "DeepCrack/train_lab/11116-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11116-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11116-2.jpg",
+        "gt": "DeepCrack/train_lab/11116-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11116-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11116-3.jpg",
+        "gt": "DeepCrack/train_lab/11116-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11116-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11116-4.jpg",
+        "gt": "DeepCrack/train_lab/11116-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11116-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11116.jpg",
+        "gt": "DeepCrack/train_lab/11116.png",
+        "image_level_label": 1,
+        "source_image_id": "11116",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11117.jpg",
+        "gt": "DeepCrack/train_lab/11117.png",
+        "image_level_label": 1,
+        "source_image_id": "11117",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11118.jpg",
+        "gt": "DeepCrack/train_lab/11118.png",
+        "image_level_label": 1,
+        "source_image_id": "11118",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11119.jpg",
+        "gt": "DeepCrack/train_lab/11119.png",
+        "image_level_label": 1,
+        "source_image_id": "11119",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11120.jpg",
+        "gt": "DeepCrack/train_lab/11120.png",
+        "image_level_label": 1,
+        "source_image_id": "11120",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11121.jpg",
+        "gt": "DeepCrack/train_lab/11121.png",
+        "image_level_label": 1,
+        "source_image_id": "11121",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11122-1.jpg",
+        "gt": "DeepCrack/train_lab/11122-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11122-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11122-2.jpg",
+        "gt": "DeepCrack/train_lab/11122-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11122-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11122-3.jpg",
+        "gt": "DeepCrack/train_lab/11122-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11122-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11122-4.jpg",
+        "gt": "DeepCrack/train_lab/11122-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11122-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11122-5.jpg",
+        "gt": "DeepCrack/train_lab/11122-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11122-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11122.jpg",
+        "gt": "DeepCrack/train_lab/11122.png",
+        "image_level_label": 1,
+        "source_image_id": "11122",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11123-1.jpg",
+        "gt": "DeepCrack/train_lab/11123-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11123-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11123-2.jpg",
+        "gt": "DeepCrack/train_lab/11123-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11123-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11123-3.jpg",
+        "gt": "DeepCrack/train_lab/11123-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11123-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11123-4.jpg",
+        "gt": "DeepCrack/train_lab/11123-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11123-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11123-5.jpg",
+        "gt": "DeepCrack/train_lab/11123-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11123-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11123-6.jpg",
+        "gt": "DeepCrack/train_lab/11123-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11123-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11123.jpg",
+        "gt": "DeepCrack/train_lab/11123.png",
+        "image_level_label": 1,
+        "source_image_id": "11123",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11124.jpg",
+        "gt": "DeepCrack/train_lab/11124.png",
+        "image_level_label": 1,
+        "source_image_id": "11124",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11126.jpg",
+        "gt": "DeepCrack/train_lab/11126.png",
+        "image_level_label": 1,
+        "source_image_id": "11126",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11130.jpg",
+        "gt": "DeepCrack/train_lab/11130.png",
+        "image_level_label": 1,
+        "source_image_id": "11130",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11131.jpg",
+        "gt": "DeepCrack/train_lab/11131.png",
+        "image_level_label": 1,
+        "source_image_id": "11131",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11132.jpg",
+        "gt": "DeepCrack/train_lab/11132.png",
+        "image_level_label": 1,
+        "source_image_id": "11132",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11133.jpg",
+        "gt": "DeepCrack/train_lab/11133.png",
+        "image_level_label": 1,
+        "source_image_id": "11133",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11134-1.jpg",
+        "gt": "DeepCrack/train_lab/11134-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11134-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11134-2.jpg",
+        "gt": "DeepCrack/train_lab/11134-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11134-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11134-3.jpg",
+        "gt": "DeepCrack/train_lab/11134-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11134-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11134-4.jpg",
+        "gt": "DeepCrack/train_lab/11134-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11134-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11134-5.jpg",
+        "gt": "DeepCrack/train_lab/11134-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11134-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11134-6.jpg",
+        "gt": "DeepCrack/train_lab/11134-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11134-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11134.jpg",
+        "gt": "DeepCrack/train_lab/11134.png",
+        "image_level_label": 1,
+        "source_image_id": "11134",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11135.jpg",
+        "gt": "DeepCrack/train_lab/11135.png",
+        "image_level_label": 1,
+        "source_image_id": "11135",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11136.jpg",
+        "gt": "DeepCrack/train_lab/11136.png",
+        "image_level_label": 1,
+        "source_image_id": "11136",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11137.jpg",
+        "gt": "DeepCrack/train_lab/11137.png",
+        "image_level_label": 1,
+        "source_image_id": "11137",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11138.jpg",
+        "gt": "DeepCrack/train_lab/11138.png",
+        "image_level_label": 1,
+        "source_image_id": "11138",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11139.jpg",
+        "gt": "DeepCrack/train_lab/11139.png",
+        "image_level_label": 1,
+        "source_image_id": "11139",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11140-1.jpg",
+        "gt": "DeepCrack/train_lab/11140-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11140-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11140-6.jpg",
+        "gt": "DeepCrack/train_lab/11140-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11140-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11140.jpg",
+        "gt": "DeepCrack/train_lab/11140.png",
+        "image_level_label": 1,
+        "source_image_id": "11140",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11141-1.jpg",
+        "gt": "DeepCrack/train_lab/11141-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11141-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11141-2.jpg",
+        "gt": "DeepCrack/train_lab/11141-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11141-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11141-3.jpg",
+        "gt": "DeepCrack/train_lab/11141-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11141-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11141-4.jpg",
+        "gt": "DeepCrack/train_lab/11141-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11141-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11141.jpg",
+        "gt": "DeepCrack/train_lab/11141.png",
+        "image_level_label": 1,
+        "source_image_id": "11141",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11142.jpg",
+        "gt": "DeepCrack/train_lab/11142.png",
+        "image_level_label": 1,
+        "source_image_id": "11142",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11143.jpg",
+        "gt": "DeepCrack/train_lab/11143.png",
+        "image_level_label": 1,
+        "source_image_id": "11143",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11144.jpg",
+        "gt": "DeepCrack/train_lab/11144.png",
+        "image_level_label": 1,
+        "source_image_id": "11144",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11148.jpg",
+        "gt": "DeepCrack/train_lab/11148.png",
+        "image_level_label": 1,
+        "source_image_id": "11148",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11149.jpg",
+        "gt": "DeepCrack/train_lab/11149.png",
+        "image_level_label": 1,
+        "source_image_id": "11149",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11150.jpg",
+        "gt": "DeepCrack/train_lab/11150.png",
+        "image_level_label": 1,
+        "source_image_id": "11150",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11151-1.jpg",
+        "gt": "DeepCrack/train_lab/11151-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11151-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11151-2.jpg",
+        "gt": "DeepCrack/train_lab/11151-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11151-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11151-3.jpg",
+        "gt": "DeepCrack/train_lab/11151-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11151-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11151-4.jpg",
+        "gt": "DeepCrack/train_lab/11151-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11151-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11151.jpg",
+        "gt": "DeepCrack/train_lab/11151.png",
+        "image_level_label": 1,
+        "source_image_id": "11151",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11152.jpg",
+        "gt": "DeepCrack/train_lab/11152.png",
+        "image_level_label": 1,
+        "source_image_id": "11152",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11153.jpg",
+        "gt": "DeepCrack/train_lab/11153.png",
+        "image_level_label": 1,
+        "source_image_id": "11153",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11154.jpg",
+        "gt": "DeepCrack/train_lab/11154.png",
+        "image_level_label": 1,
+        "source_image_id": "11154",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11155-1.jpg",
+        "gt": "DeepCrack/train_lab/11155-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11155-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11155-2.jpg",
+        "gt": "DeepCrack/train_lab/11155-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11155-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11155-3.jpg",
+        "gt": "DeepCrack/train_lab/11155-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11155-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11155-4.jpg",
+        "gt": "DeepCrack/train_lab/11155-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11155-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11155.jpg",
+        "gt": "DeepCrack/train_lab/11155.png",
+        "image_level_label": 1,
+        "source_image_id": "11155",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11156-1.jpg",
+        "gt": "DeepCrack/train_lab/11156-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11156-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11156-2.jpg",
+        "gt": "DeepCrack/train_lab/11156-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11156-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11156.jpg",
+        "gt": "DeepCrack/train_lab/11156.png",
+        "image_level_label": 1,
+        "source_image_id": "11156",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11157-1.jpg",
+        "gt": "DeepCrack/train_lab/11157-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11157-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11157.jpg",
+        "gt": "DeepCrack/train_lab/11157.png",
+        "image_level_label": 1,
+        "source_image_id": "11157",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11158.jpg",
+        "gt": "DeepCrack/train_lab/11158.png",
+        "image_level_label": 1,
+        "source_image_id": "11158",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11159.jpg",
+        "gt": "DeepCrack/train_lab/11159.png",
+        "image_level_label": 1,
+        "source_image_id": "11159",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11162-1.jpg",
+        "gt": "DeepCrack/train_lab/11162-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11162-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11162-2.jpg",
+        "gt": "DeepCrack/train_lab/11162-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11162-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11162-3.jpg",
+        "gt": "DeepCrack/train_lab/11162-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11162-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11162-4.jpg",
+        "gt": "DeepCrack/train_lab/11162-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11162-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11162.jpg",
+        "gt": "DeepCrack/train_lab/11162.png",
+        "image_level_label": 1,
+        "source_image_id": "11162",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11163-1.jpg",
+        "gt": "DeepCrack/train_lab/11163-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11163-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11163.jpg",
+        "gt": "DeepCrack/train_lab/11163.png",
+        "image_level_label": 1,
+        "source_image_id": "11163",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11164-2.jpg",
+        "gt": "DeepCrack/train_lab/11164-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11164-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11164-4.jpg",
+        "gt": "DeepCrack/train_lab/11164-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11164-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11165-1.jpg",
+        "gt": "DeepCrack/train_lab/11165-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11165-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11165-2.jpg",
+        "gt": "DeepCrack/train_lab/11165-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11165-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11165.jpg",
+        "gt": "DeepCrack/train_lab/11165.png",
+        "image_level_label": 1,
+        "source_image_id": "11165",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11166-1.jpg",
+        "gt": "DeepCrack/train_lab/11166-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11166-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11166-2.jpg",
+        "gt": "DeepCrack/train_lab/11166-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11166-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11166.jpg",
+        "gt": "DeepCrack/train_lab/11166.png",
+        "image_level_label": 1,
+        "source_image_id": "11166",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11167-1.jpg",
+        "gt": "DeepCrack/train_lab/11167-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11167-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11167-2.jpg",
+        "gt": "DeepCrack/train_lab/11167-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11167-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11167.jpg",
+        "gt": "DeepCrack/train_lab/11167.png",
+        "image_level_label": 1,
+        "source_image_id": "11167",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11168-2.jpg",
+        "gt": "DeepCrack/train_lab/11168-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11168-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11168.jpg",
+        "gt": "DeepCrack/train_lab/11168.png",
+        "image_level_label": 1,
+        "source_image_id": "11168",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11170-1.jpg",
+        "gt": "DeepCrack/train_lab/11170-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11170-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11170-2.jpg",
+        "gt": "DeepCrack/train_lab/11170-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11170-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11170.jpg",
+        "gt": "DeepCrack/train_lab/11170.png",
+        "image_level_label": 1,
+        "source_image_id": "11170",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11175-1.jpg",
+        "gt": "DeepCrack/train_lab/11175-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11175-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11175-2.jpg",
+        "gt": "DeepCrack/train_lab/11175-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11175-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11175-3.jpg",
+        "gt": "DeepCrack/train_lab/11175-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11175-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11175.jpg",
+        "gt": "DeepCrack/train_lab/11175.png",
+        "image_level_label": 1,
+        "source_image_id": "11175",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11176.jpg",
+        "gt": "DeepCrack/train_lab/11176.png",
+        "image_level_label": 1,
+        "source_image_id": "11176",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11177.jpg",
+        "gt": "DeepCrack/train_lab/11177.png",
+        "image_level_label": 1,
+        "source_image_id": "11177",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11178-1.jpg",
+        "gt": "DeepCrack/train_lab/11178-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11178-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11178-2.jpg",
+        "gt": "DeepCrack/train_lab/11178-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11178-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11178-3.jpg",
+        "gt": "DeepCrack/train_lab/11178-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11178-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11178-4.jpg",
+        "gt": "DeepCrack/train_lab/11178-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11178-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11178.jpg",
+        "gt": "DeepCrack/train_lab/11178.png",
+        "image_level_label": 1,
+        "source_image_id": "11178",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11179-1.jpg",
+        "gt": "DeepCrack/train_lab/11179-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11179-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11179-2.jpg",
+        "gt": "DeepCrack/train_lab/11179-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11179-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11179-3.jpg",
+        "gt": "DeepCrack/train_lab/11179-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11179-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11179-4.jpg",
+        "gt": "DeepCrack/train_lab/11179-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11179-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11179-5.jpg",
+        "gt": "DeepCrack/train_lab/11179-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11179-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11179.jpg",
+        "gt": "DeepCrack/train_lab/11179.png",
+        "image_level_label": 1,
+        "source_image_id": "11179",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11180.jpg",
+        "gt": "DeepCrack/train_lab/11180.png",
+        "image_level_label": 1,
+        "source_image_id": "11180",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11181.jpg",
+        "gt": "DeepCrack/train_lab/11181.png",
+        "image_level_label": 1,
+        "source_image_id": "11181",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11182-1.jpg",
+        "gt": "DeepCrack/train_lab/11182-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11182-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11182-2.jpg",
+        "gt": "DeepCrack/train_lab/11182-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11182-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11183.jpg",
+        "gt": "DeepCrack/train_lab/11183.png",
+        "image_level_label": 1,
+        "source_image_id": "11183",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11184-1.jpg",
+        "gt": "DeepCrack/train_lab/11184-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11184-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11184-2.jpg",
+        "gt": "DeepCrack/train_lab/11184-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11184-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11184.jpg",
+        "gt": "DeepCrack/train_lab/11184.png",
+        "image_level_label": 1,
+        "source_image_id": "11184",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11185-1.jpg",
+        "gt": "DeepCrack/train_lab/11185-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11185-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11185.jpg",
+        "gt": "DeepCrack/train_lab/11185.png",
+        "image_level_label": 1,
+        "source_image_id": "11185",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11186.jpg",
+        "gt": "DeepCrack/train_lab/11186.png",
+        "image_level_label": 1,
+        "source_image_id": "11186",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11187-1.jpg",
+        "gt": "DeepCrack/train_lab/11187-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11187-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11187-2.jpg",
+        "gt": "DeepCrack/train_lab/11187-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11187-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11187-3.jpg",
+        "gt": "DeepCrack/train_lab/11187-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11187-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11187-4.jpg",
+        "gt": "DeepCrack/train_lab/11187-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11187-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11187-5.jpg",
+        "gt": "DeepCrack/train_lab/11187-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11187-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11187-6.jpg",
+        "gt": "DeepCrack/train_lab/11187-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11187-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11187.jpg",
+        "gt": "DeepCrack/train_lab/11187.png",
+        "image_level_label": 1,
+        "source_image_id": "11187",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11188-1.jpg",
+        "gt": "DeepCrack/train_lab/11188-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11188-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11188-2.jpg",
+        "gt": "DeepCrack/train_lab/11188-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11188-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11188.jpg",
+        "gt": "DeepCrack/train_lab/11188.png",
+        "image_level_label": 1,
+        "source_image_id": "11188",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11189-1.jpg",
+        "gt": "DeepCrack/train_lab/11189-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11189-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11189-2.jpg",
+        "gt": "DeepCrack/train_lab/11189-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11189-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11189.jpg",
+        "gt": "DeepCrack/train_lab/11189.png",
+        "image_level_label": 1,
+        "source_image_id": "11189",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11190-1.jpg",
+        "gt": "DeepCrack/train_lab/11190-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11190-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11190-2.jpg",
+        "gt": "DeepCrack/train_lab/11190-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11190-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11190-3.jpg",
+        "gt": "DeepCrack/train_lab/11190-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11190-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11190-4.jpg",
+        "gt": "DeepCrack/train_lab/11190-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11190-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11190-5.jpg",
+        "gt": "DeepCrack/train_lab/11190-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11190-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11190-6.jpg",
+        "gt": "DeepCrack/train_lab/11190-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11190-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11190-7.jpg",
+        "gt": "DeepCrack/train_lab/11190-7.png",
+        "image_level_label": 1,
+        "source_image_id": "11190-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11190.jpg",
+        "gt": "DeepCrack/train_lab/11190.png",
+        "image_level_label": 1,
+        "source_image_id": "11190",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11192-1.jpg",
+        "gt": "DeepCrack/train_lab/11192-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11192-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11192-2.jpg",
+        "gt": "DeepCrack/train_lab/11192-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11192-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11192.jpg",
+        "gt": "DeepCrack/train_lab/11192.png",
+        "image_level_label": 1,
+        "source_image_id": "11192",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11193-1.jpg",
+        "gt": "DeepCrack/train_lab/11193-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11193-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11193-2.jpg",
+        "gt": "DeepCrack/train_lab/11193-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11193-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11193-3.jpg",
+        "gt": "DeepCrack/train_lab/11193-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11193-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11193.jpg",
+        "gt": "DeepCrack/train_lab/11193.png",
+        "image_level_label": 1,
+        "source_image_id": "11193",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11196.jpg",
+        "gt": "DeepCrack/train_lab/11196.png",
+        "image_level_label": 1,
+        "source_image_id": "11196",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11197-1.jpg",
+        "gt": "DeepCrack/train_lab/11197-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11197-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11197-2.jpg",
+        "gt": "DeepCrack/train_lab/11197-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11197-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11197-3.jpg",
+        "gt": "DeepCrack/train_lab/11197-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11197-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11197-4.jpg",
+        "gt": "DeepCrack/train_lab/11197-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11197-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11198.jpg",
+        "gt": "DeepCrack/train_lab/11198.png",
+        "image_level_label": 1,
+        "source_image_id": "11198",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11200-1.jpg",
+        "gt": "DeepCrack/train_lab/11200-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11200-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11200-2.jpg",
+        "gt": "DeepCrack/train_lab/11200-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11200-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11202.jpg",
+        "gt": "DeepCrack/train_lab/11202.png",
+        "image_level_label": 1,
+        "source_image_id": "11202",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11203.jpg",
+        "gt": "DeepCrack/train_lab/11203.png",
+        "image_level_label": 1,
+        "source_image_id": "11203",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11204.jpg",
+        "gt": "DeepCrack/train_lab/11204.png",
+        "image_level_label": 1,
+        "source_image_id": "11204",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11289-1.jpg",
+        "gt": "DeepCrack/train_lab/11289-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11289-10.jpg",
+        "gt": "DeepCrack/train_lab/11289-10.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-10",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11289-2.jpg",
+        "gt": "DeepCrack/train_lab/11289-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11289-3.jpg",
+        "gt": "DeepCrack/train_lab/11289-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11289-4.jpg",
+        "gt": "DeepCrack/train_lab/11289-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11289-5.jpg",
+        "gt": "DeepCrack/train_lab/11289-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11289-6.jpg",
+        "gt": "DeepCrack/train_lab/11289-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11289-7.jpg",
+        "gt": "DeepCrack/train_lab/11289-7.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11289-8.jpg",
+        "gt": "DeepCrack/train_lab/11289-8.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/11289-9.jpg",
+        "gt": "DeepCrack/train_lab/11289-9.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-1.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-1.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-10.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-10.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-10",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-11.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-11.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-11",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-12.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-12.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-12",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-13.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-13.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-13",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-14.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-14.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-14",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-15.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-15.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-15",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-16.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-16.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-16",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-17.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-17.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-17",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-18.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-18.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-18",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-19.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-19.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-19",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-2.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-2.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-20.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-20.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-20",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-3.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-3.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-4.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-4.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-5.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-5.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-6.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-6.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-7.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-7.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-8.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-8.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9060-9.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9060-9.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9060-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-1.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-1.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-10.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-10.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-10",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-11.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-11.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-11",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-12.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-12.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-12",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-13.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-13.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-13",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-14.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-14.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-14",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-15.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-15.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-15",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-16.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-16.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-16",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-17.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-17.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-17",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-18.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-18.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-18",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-19.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-19.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-19",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-2.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-2.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-20.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-20.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-20",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-3.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-3.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-4.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-4.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-5.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-5.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-6.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-6.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-7.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-7.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-8.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-8.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/7Q3A9064-9.jpg",
+        "gt": "DeepCrack/train_lab/7Q3A9064-9.png",
+        "image_level_label": 1,
+        "source_image_id": "7Q3A9064-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG108.jpg",
+        "gt": "DeepCrack/train_lab/IMG108.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG108",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG11-1.jpg",
+        "gt": "DeepCrack/train_lab/IMG11-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG11-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG11-2.jpg",
+        "gt": "DeepCrack/train_lab/IMG11-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG11-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG11-3.jpg",
+        "gt": "DeepCrack/train_lab/IMG11-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG11-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG11-4.jpg",
+        "gt": "DeepCrack/train_lab/IMG11-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG11-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG11-5.jpg",
+        "gt": "DeepCrack/train_lab/IMG11-5.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG11-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG11-6.jpg",
+        "gt": "DeepCrack/train_lab/IMG11-6.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG11-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG12-1.jpg",
+        "gt": "DeepCrack/train_lab/IMG12-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG12-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG12-2.jpg",
+        "gt": "DeepCrack/train_lab/IMG12-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG12-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG12.jpg",
+        "gt": "DeepCrack/train_lab/IMG12.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG12",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG13-1.jpg",
+        "gt": "DeepCrack/train_lab/IMG13-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG13-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG13-2.jpg",
+        "gt": "DeepCrack/train_lab/IMG13-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG13-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG13-3.jpg",
+        "gt": "DeepCrack/train_lab/IMG13-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG13-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG13-4.jpg",
+        "gt": "DeepCrack/train_lab/IMG13-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG13-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG13-5.jpg",
+        "gt": "DeepCrack/train_lab/IMG13-5.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG13-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG13-6.jpg",
+        "gt": "DeepCrack/train_lab/IMG13-6.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG13-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG13-7.jpg",
+        "gt": "DeepCrack/train_lab/IMG13-7.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG13-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG136.jpg",
+        "gt": "DeepCrack/train_lab/IMG136.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG136",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG14-1.jpg",
+        "gt": "DeepCrack/train_lab/IMG14-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG14-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG14-2.jpg",
+        "gt": "DeepCrack/train_lab/IMG14-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG14-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG14-3.jpg",
+        "gt": "DeepCrack/train_lab/IMG14-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG14-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG14-4.jpg",
+        "gt": "DeepCrack/train_lab/IMG14-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG14-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG16.jpg",
+        "gt": "DeepCrack/train_lab/IMG16.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG16",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG17.jpg",
+        "gt": "DeepCrack/train_lab/IMG17.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG17",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG18.jpg",
+        "gt": "DeepCrack/train_lab/IMG18.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG18",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG19.jpg",
+        "gt": "DeepCrack/train_lab/IMG19.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG19",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG20.jpg",
+        "gt": "DeepCrack/train_lab/IMG20.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG20",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG21.jpg",
+        "gt": "DeepCrack/train_lab/IMG21.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG21",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG25-1.jpg",
+        "gt": "DeepCrack/train_lab/IMG25-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG25-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG25-10.jpg",
+        "gt": "DeepCrack/train_lab/IMG25-10.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG25-10",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG25-2.jpg",
+        "gt": "DeepCrack/train_lab/IMG25-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG25-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG25-3.jpg",
+        "gt": "DeepCrack/train_lab/IMG25-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG25-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG25-4.jpg",
+        "gt": "DeepCrack/train_lab/IMG25-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG25-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG25-5.jpg",
+        "gt": "DeepCrack/train_lab/IMG25-5.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG25-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG25-6.jpg",
+        "gt": "DeepCrack/train_lab/IMG25-6.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG25-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG25-7.jpg",
+        "gt": "DeepCrack/train_lab/IMG25-7.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG25-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG25-8.jpg",
+        "gt": "DeepCrack/train_lab/IMG25-8.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG25-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG25-9.jpg",
+        "gt": "DeepCrack/train_lab/IMG25-9.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG25-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-1.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-10.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-10.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-10",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-11.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-11.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-11",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-12.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-12.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-12",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-13.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-13.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-13",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-2.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-3.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-4.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-5.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-5.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-6.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-6.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-7.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-7.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-8.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-8.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG27-9.jpg",
+        "gt": "DeepCrack/train_lab/IMG27-9.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG27-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-1.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-10.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-10.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-10",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-11.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-11.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-11",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-12.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-12.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-12",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-13.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-13.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-13",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-14.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-14.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-14",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-15.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-15.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-15",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-16.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-16.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-16",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-17.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-17.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-17",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-18.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-18.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-18",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-2.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-3.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-4.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-5.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-5.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-6.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-6.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-7.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-7.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-8.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-8.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG33-9.jpg",
+        "gt": "DeepCrack/train_lab/IMG33-9.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG33-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG36-1.jpg",
+        "gt": "DeepCrack/train_lab/IMG36-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG36-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG36-2.jpg",
+        "gt": "DeepCrack/train_lab/IMG36-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG36-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG36-3.jpg",
+        "gt": "DeepCrack/train_lab/IMG36-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG36-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG39-1.jpg",
+        "gt": "DeepCrack/train_lab/IMG39-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG39-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG39-2.jpg",
+        "gt": "DeepCrack/train_lab/IMG39-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG39-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG49.jpg",
+        "gt": "DeepCrack/train_lab/IMG49.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG49",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG5.jpg",
+        "gt": "DeepCrack/train_lab/IMG5.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG56.jpg",
+        "gt": "DeepCrack/train_lab/IMG56.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG56",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG74.jpg",
+        "gt": "DeepCrack/train_lab/IMG74.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG74",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG88.jpg",
+        "gt": "DeepCrack/train_lab/IMG88.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG88",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/train_img/IMG_6536-6.jpg",
+        "gt": "DeepCrack/train_lab/IMG_6536-6.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      }
+    ],
+    "test": [
+      {
+        "image": "DeepCrack/test_img/111212-1.jpg",
+        "gt": "DeepCrack/test_lab/111212-1.png",
+        "image_level_label": 1,
+        "source_image_id": "111212-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11125-1.jpg",
+        "gt": "DeepCrack/test_lab/11125-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11125-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11125-2.jpg",
+        "gt": "DeepCrack/test_lab/11125-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11125-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11125-3.jpg",
+        "gt": "DeepCrack/test_lab/11125-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11125-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11129.jpg",
+        "gt": "DeepCrack/test_lab/11129.png",
+        "image_level_label": 1,
+        "source_image_id": "11129",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11142-1.jpg",
+        "gt": "DeepCrack/test_lab/11142-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11142-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11142-2.jpg",
+        "gt": "DeepCrack/test_lab/11142-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11142-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11169-1.jpg",
+        "gt": "DeepCrack/test_lab/11169-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11169-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11169-2.jpg",
+        "gt": "DeepCrack/test_lab/11169-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11169-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11171.jpg",
+        "gt": "DeepCrack/test_lab/11171.png",
+        "image_level_label": 1,
+        "source_image_id": "11171",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11174.jpg",
+        "gt": "DeepCrack/test_lab/11174.png",
+        "image_level_label": 1,
+        "source_image_id": "11174",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11194.jpg",
+        "gt": "DeepCrack/test_lab/11194.png",
+        "image_level_label": 1,
+        "source_image_id": "11194",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-1.jpg",
+        "gt": "DeepCrack/test_lab/11215-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-10.jpg",
+        "gt": "DeepCrack/test_lab/11215-10.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-10",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-11.jpg",
+        "gt": "DeepCrack/test_lab/11215-11.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-11",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-12.jpg",
+        "gt": "DeepCrack/test_lab/11215-12.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-12",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-13.jpg",
+        "gt": "DeepCrack/test_lab/11215-13.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-13",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-14.jpg",
+        "gt": "DeepCrack/test_lab/11215-14.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-14",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-15.jpg",
+        "gt": "DeepCrack/test_lab/11215-15.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-15",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-2.jpg",
+        "gt": "DeepCrack/test_lab/11215-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-3.jpg",
+        "gt": "DeepCrack/test_lab/11215-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-4.jpg",
+        "gt": "DeepCrack/test_lab/11215-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-5.jpg",
+        "gt": "DeepCrack/test_lab/11215-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-6.jpg",
+        "gt": "DeepCrack/test_lab/11215-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-7.jpg",
+        "gt": "DeepCrack/test_lab/11215-7.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-8.jpg",
+        "gt": "DeepCrack/test_lab/11215-8.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11215-9.jpg",
+        "gt": "DeepCrack/test_lab/11215-9.png",
+        "image_level_label": 1,
+        "source_image_id": "11215-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11216.jpg",
+        "gt": "DeepCrack/test_lab/11216.png",
+        "image_level_label": 1,
+        "source_image_id": "11216",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11217.jpg",
+        "gt": "DeepCrack/test_lab/11217.png",
+        "image_level_label": 1,
+        "source_image_id": "11217",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11218-1.jpg",
+        "gt": "DeepCrack/test_lab/11218-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11218-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11218-2.jpg",
+        "gt": "DeepCrack/test_lab/11218-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11218-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11218-3.jpg",
+        "gt": "DeepCrack/test_lab/11218-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11218-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11220-1.jpg",
+        "gt": "DeepCrack/test_lab/11220-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11220-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11222-1.jpg",
+        "gt": "DeepCrack/test_lab/11222-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11222-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11222-2.jpg",
+        "gt": "DeepCrack/test_lab/11222-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11222-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11222-3.jpg",
+        "gt": "DeepCrack/test_lab/11222-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11222-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11231-1.jpg",
+        "gt": "DeepCrack/test_lab/11231-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11231-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11231-2.jpg",
+        "gt": "DeepCrack/test_lab/11231-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11231-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11231-3.jpg",
+        "gt": "DeepCrack/test_lab/11231-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11231-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11231-4.jpg",
+        "gt": "DeepCrack/test_lab/11231-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11231-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11231-5.jpg",
+        "gt": "DeepCrack/test_lab/11231-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11231-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11231-6.jpg",
+        "gt": "DeepCrack/test_lab/11231-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11231-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11231-7.jpg",
+        "gt": "DeepCrack/test_lab/11231-7.png",
+        "image_level_label": 1,
+        "source_image_id": "11231-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11231-8.jpg",
+        "gt": "DeepCrack/test_lab/11231-8.png",
+        "image_level_label": 1,
+        "source_image_id": "11231-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11231-9.jpg",
+        "gt": "DeepCrack/test_lab/11231-9.png",
+        "image_level_label": 1,
+        "source_image_id": "11231-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11236-1.jpg",
+        "gt": "DeepCrack/test_lab/11236-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11236-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11236-2.jpg",
+        "gt": "DeepCrack/test_lab/11236-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11236-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11236-3.jpg",
+        "gt": "DeepCrack/test_lab/11236-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11236-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11236-4.jpg",
+        "gt": "DeepCrack/test_lab/11236-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11236-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11236-5.jpg",
+        "gt": "DeepCrack/test_lab/11236-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11236-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11236-6.jpg",
+        "gt": "DeepCrack/test_lab/11236-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11236-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11236-7.jpg",
+        "gt": "DeepCrack/test_lab/11236-7.png",
+        "image_level_label": 1,
+        "source_image_id": "11236-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11239-1.jpg",
+        "gt": "DeepCrack/test_lab/11239-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11239-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11239-2.jpg",
+        "gt": "DeepCrack/test_lab/11239-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11239-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11239-3.jpg",
+        "gt": "DeepCrack/test_lab/11239-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11239-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-1.jpg",
+        "gt": "DeepCrack/test_lab/11240-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-10.jpg",
+        "gt": "DeepCrack/test_lab/11240-10.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-10",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-11.jpg",
+        "gt": "DeepCrack/test_lab/11240-11.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-11",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-12.jpg",
+        "gt": "DeepCrack/test_lab/11240-12.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-12",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-2.jpg",
+        "gt": "DeepCrack/test_lab/11240-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-3.jpg",
+        "gt": "DeepCrack/test_lab/11240-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-4.jpg",
+        "gt": "DeepCrack/test_lab/11240-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-5.jpg",
+        "gt": "DeepCrack/test_lab/11240-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-6.jpg",
+        "gt": "DeepCrack/test_lab/11240-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-7.jpg",
+        "gt": "DeepCrack/test_lab/11240-7.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-8.jpg",
+        "gt": "DeepCrack/test_lab/11240-8.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11240-9.jpg",
+        "gt": "DeepCrack/test_lab/11240-9.png",
+        "image_level_label": 1,
+        "source_image_id": "11240-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11247-1.jpg",
+        "gt": "DeepCrack/test_lab/11247-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11247-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11247-10.jpg",
+        "gt": "DeepCrack/test_lab/11247-10.png",
+        "image_level_label": 1,
+        "source_image_id": "11247-10",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11247-12.jpg",
+        "gt": "DeepCrack/test_lab/11247-12.png",
+        "image_level_label": 1,
+        "source_image_id": "11247-12",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11247-2.jpg",
+        "gt": "DeepCrack/test_lab/11247-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11247-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11247-3.jpg",
+        "gt": "DeepCrack/test_lab/11247-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11247-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11247-4.jpg",
+        "gt": "DeepCrack/test_lab/11247-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11247-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11247-5.jpg",
+        "gt": "DeepCrack/test_lab/11247-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11247-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11247-6.jpg",
+        "gt": "DeepCrack/test_lab/11247-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11247-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11247-7.jpg",
+        "gt": "DeepCrack/test_lab/11247-7.png",
+        "image_level_label": 1,
+        "source_image_id": "11247-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11247-8.jpg",
+        "gt": "DeepCrack/test_lab/11247-8.png",
+        "image_level_label": 1,
+        "source_image_id": "11247-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11247-9.jpg",
+        "gt": "DeepCrack/test_lab/11247-9.png",
+        "image_level_label": 1,
+        "source_image_id": "11247-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11248-1.jpg",
+        "gt": "DeepCrack/test_lab/11248-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11248-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11248-2.jpg",
+        "gt": "DeepCrack/test_lab/11248-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11248-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11248-3.jpg",
+        "gt": "DeepCrack/test_lab/11248-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11248-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11249-1.jpg",
+        "gt": "DeepCrack/test_lab/11249-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11249-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11249-2.jpg",
+        "gt": "DeepCrack/test_lab/11249-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11249-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11249-3.jpg",
+        "gt": "DeepCrack/test_lab/11249-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11249-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11249-4.jpg",
+        "gt": "DeepCrack/test_lab/11249-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11249-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11249-5.jpg",
+        "gt": "DeepCrack/test_lab/11249-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11249-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11249-6.jpg",
+        "gt": "DeepCrack/test_lab/11249-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11249-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11249-7.jpg",
+        "gt": "DeepCrack/test_lab/11249-7.png",
+        "image_level_label": 1,
+        "source_image_id": "11249-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11249-8.jpg",
+        "gt": "DeepCrack/test_lab/11249-8.png",
+        "image_level_label": 1,
+        "source_image_id": "11249-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11258-1.jpg",
+        "gt": "DeepCrack/test_lab/11258-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11258-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11258-2.jpg",
+        "gt": "DeepCrack/test_lab/11258-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11258-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11266-1.jpg",
+        "gt": "DeepCrack/test_lab/11266-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11266-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11266-2.jpg",
+        "gt": "DeepCrack/test_lab/11266-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11266-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11266-3.jpg",
+        "gt": "DeepCrack/test_lab/11266-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11266-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11266-4.jpg",
+        "gt": "DeepCrack/test_lab/11266-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11266-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11266-5.jpg",
+        "gt": "DeepCrack/test_lab/11266-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11266-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11267-1.jpg",
+        "gt": "DeepCrack/test_lab/11267-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11267-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11267-2.jpg",
+        "gt": "DeepCrack/test_lab/11267-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11267-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11267-3.jpg",
+        "gt": "DeepCrack/test_lab/11267-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11267-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11267-4.jpg",
+        "gt": "DeepCrack/test_lab/11267-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11267-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11267-5.jpg",
+        "gt": "DeepCrack/test_lab/11267-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11267-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11269-1.jpg",
+        "gt": "DeepCrack/test_lab/11269-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11269-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11269-2.jpg",
+        "gt": "DeepCrack/test_lab/11269-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11269-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11269-3.jpg",
+        "gt": "DeepCrack/test_lab/11269-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11269-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11269-4.jpg",
+        "gt": "DeepCrack/test_lab/11269-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11269-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11269-5.jpg",
+        "gt": "DeepCrack/test_lab/11269-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11269-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11269-6.jpg",
+        "gt": "DeepCrack/test_lab/11269-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11269-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11270-1.jpg",
+        "gt": "DeepCrack/test_lab/11270-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11270-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11270-2.jpg",
+        "gt": "DeepCrack/test_lab/11270-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11270-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11271-1.jpg",
+        "gt": "DeepCrack/test_lab/11271-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11271-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11271-2.jpg",
+        "gt": "DeepCrack/test_lab/11271-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11271-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11271-3.jpg",
+        "gt": "DeepCrack/test_lab/11271-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11271-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11271-4.jpg",
+        "gt": "DeepCrack/test_lab/11271-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11271-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11271-5.jpg",
+        "gt": "DeepCrack/test_lab/11271-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11271-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11271-6.jpg",
+        "gt": "DeepCrack/test_lab/11271-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11271-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11275-1.jpg",
+        "gt": "DeepCrack/test_lab/11275-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11275-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11275-2.jpg",
+        "gt": "DeepCrack/test_lab/11275-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11275-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11275-3.jpg",
+        "gt": "DeepCrack/test_lab/11275-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11275-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11276-1.jpg",
+        "gt": "DeepCrack/test_lab/11276-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11276-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11284-1.jpg",
+        "gt": "DeepCrack/test_lab/11284-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11284-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11286-1.jpg",
+        "gt": "DeepCrack/test_lab/11286-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11286-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11286-2.jpg",
+        "gt": "DeepCrack/test_lab/11286-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11286-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11286-3.jpg",
+        "gt": "DeepCrack/test_lab/11286-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11286-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11289-1.jpg",
+        "gt": "DeepCrack/test_lab/11289-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11289-10.jpg",
+        "gt": "DeepCrack/test_lab/11289-10.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-10",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11289-11.jpg",
+        "gt": "DeepCrack/test_lab/11289-11.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-11",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11289-2.jpg",
+        "gt": "DeepCrack/test_lab/11289-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11289-3.jpg",
+        "gt": "DeepCrack/test_lab/11289-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11289-4.jpg",
+        "gt": "DeepCrack/test_lab/11289-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11289-5.jpg",
+        "gt": "DeepCrack/test_lab/11289-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11289-6.jpg",
+        "gt": "DeepCrack/test_lab/11289-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11289-7.jpg",
+        "gt": "DeepCrack/test_lab/11289-7.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11289-8.jpg",
+        "gt": "DeepCrack/test_lab/11289-8.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11289-9.jpg",
+        "gt": "DeepCrack/test_lab/11289-9.png",
+        "image_level_label": 1,
+        "source_image_id": "11289-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11294.jpg",
+        "gt": "DeepCrack/test_lab/11294.png",
+        "image_level_label": 1,
+        "source_image_id": "11294",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11295.jpg",
+        "gt": "DeepCrack/test_lab/11295.png",
+        "image_level_label": 1,
+        "source_image_id": "11295",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-1.jpg",
+        "gt": "DeepCrack/test_lab/11296-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-10.jpg",
+        "gt": "DeepCrack/test_lab/11296-10.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-10",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-11.jpg",
+        "gt": "DeepCrack/test_lab/11296-11.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-11",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-12.jpg",
+        "gt": "DeepCrack/test_lab/11296-12.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-12",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-13.jpg",
+        "gt": "DeepCrack/test_lab/11296-13.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-13",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-14.jpg",
+        "gt": "DeepCrack/test_lab/11296-14.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-14",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-15.jpg",
+        "gt": "DeepCrack/test_lab/11296-15.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-15",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-16.jpg",
+        "gt": "DeepCrack/test_lab/11296-16.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-16",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-17.jpg",
+        "gt": "DeepCrack/test_lab/11296-17.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-17",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-18.jpg",
+        "gt": "DeepCrack/test_lab/11296-18.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-18",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-19.jpg",
+        "gt": "DeepCrack/test_lab/11296-19.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-19",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-2.jpg",
+        "gt": "DeepCrack/test_lab/11296-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-20.jpg",
+        "gt": "DeepCrack/test_lab/11296-20.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-20",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-21.jpg",
+        "gt": "DeepCrack/test_lab/11296-21.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-21",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-22.jpg",
+        "gt": "DeepCrack/test_lab/11296-22.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-22",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-23.jpg",
+        "gt": "DeepCrack/test_lab/11296-23.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-23",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-3.jpg",
+        "gt": "DeepCrack/test_lab/11296-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-4.jpg",
+        "gt": "DeepCrack/test_lab/11296-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-5.jpg",
+        "gt": "DeepCrack/test_lab/11296-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-6.jpg",
+        "gt": "DeepCrack/test_lab/11296-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-7.jpg",
+        "gt": "DeepCrack/test_lab/11296-7.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-7",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-8.jpg",
+        "gt": "DeepCrack/test_lab/11296-8.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-8",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11296-9.jpg",
+        "gt": "DeepCrack/test_lab/11296-9.png",
+        "image_level_label": 1,
+        "source_image_id": "11296-9",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11300.jpg",
+        "gt": "DeepCrack/test_lab/11300.png",
+        "image_level_label": 1,
+        "source_image_id": "11300",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11301-1.jpg",
+        "gt": "DeepCrack/test_lab/11301-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11301-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11301-2.jpg",
+        "gt": "DeepCrack/test_lab/11301-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11301-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11301-3.jpg",
+        "gt": "DeepCrack/test_lab/11301-3.png",
+        "image_level_label": 1,
+        "source_image_id": "11301-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11301-4.jpg",
+        "gt": "DeepCrack/test_lab/11301-4.png",
+        "image_level_label": 1,
+        "source_image_id": "11301-4",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11301-5.jpg",
+        "gt": "DeepCrack/test_lab/11301-5.png",
+        "image_level_label": 1,
+        "source_image_id": "11301-5",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11301-6.jpg",
+        "gt": "DeepCrack/test_lab/11301-6.png",
+        "image_level_label": 1,
+        "source_image_id": "11301-6",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11302-1.jpg",
+        "gt": "DeepCrack/test_lab/11302-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11302-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11302-2.jpg",
+        "gt": "DeepCrack/test_lab/11302-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11302-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11304.jpg",
+        "gt": "DeepCrack/test_lab/11304.png",
+        "image_level_label": 1,
+        "source_image_id": "11304",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11305-1.jpg",
+        "gt": "DeepCrack/test_lab/11305-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11305-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11305-2.jpg",
+        "gt": "DeepCrack/test_lab/11305-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11305-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11308-1.jpg",
+        "gt": "DeepCrack/test_lab/11308-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11308-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11308-2.jpg",
+        "gt": "DeepCrack/test_lab/11308-2.png",
+        "image_level_label": 1,
+        "source_image_id": "11308-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/11309-1.jpg",
+        "gt": "DeepCrack/test_lab/11309-1.png",
+        "image_level_label": 1,
+        "source_image_id": "11309-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG109-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG109-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG109-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG24-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG24-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG24-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG24-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG24-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG24-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG24-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG24-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG24-3",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG6-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG6-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG6-1",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG6-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG6-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG6-2",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_5776-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_5776-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_5776-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG_5776-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_5778-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_5778-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6469-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6469-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6469-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6469-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6469-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6469-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6469-4.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6469-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6469-5.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6469-5.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6469-6.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6469-6.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6469-7.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6469-7.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6472-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6472-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6472-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6472-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6472-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6472-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6472-4.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6472-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6472-5.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6472-5.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6472-6.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6472-6.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6472-7.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6472-7.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6472-8.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6472-8.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6514-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6514-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6514-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6514-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6514-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6514-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6516-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6516-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6516-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6516-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6516-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6516-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6516-4.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6516-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6522-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6522-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6522-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6522-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6526-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6526-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6526-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6526-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6526-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6526-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6526-4.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6526-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6528-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6528-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6528-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6528-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6533-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6533-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6536-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6536-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6536-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6536-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6536-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6536-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6536-4.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6536-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6536-5.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6536-5.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6536-7.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6536-7.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6537-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6537-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6537-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6537-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6537-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6537-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6537-4.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6537-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6537-5.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6537-5.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6538-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6538-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6538-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6538-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6542-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6542-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6542-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6542-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6542-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6542-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6542-4.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6542-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6542-5.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6542-5.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6542-7.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6542-7.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6544-1.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6544-1.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6544-2.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6544-2.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6544-3.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6544-3.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "DeepCrack/test_img/IMG_6544-4.jpg",
+        "gt": "DeepCrack/test_lab/IMG_6544-4.png",
+        "image_level_label": 1,
+        "source_image_id": "IMG",
+        "use_gt_in_training": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,839 @@
+{
+  "dataset": "CFD",
+  "version": "v1.2",
+  "data_root": "/root/autodl-tmp/crackrefiner/data",
+  "dataset_root": "/root/autodl-tmp/crackrefiner/data/CFD",
+  "weakly_supervised": true,
+  "auto_split": null,
+  "seed": 42,
+  "splits": {
+    "test": [
+      {
+        "image": "CFD/image/001.jpg",
+        "gt": "CFD/gt/001.png",
+        "image_level_label": 1,
+        "source_image_id": "001",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/002.jpg",
+        "gt": "CFD/gt/002.png",
+        "image_level_label": 1,
+        "source_image_id": "002",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/003.jpg",
+        "gt": "CFD/gt/003.png",
+        "image_level_label": 1,
+        "source_image_id": "003",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/004.jpg",
+        "gt": "CFD/gt/004.png",
+        "image_level_label": 1,
+        "source_image_id": "004",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/005.jpg",
+        "gt": "CFD/gt/005.png",
+        "image_level_label": 1,
+        "source_image_id": "005",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/006.jpg",
+        "gt": "CFD/gt/006.png",
+        "image_level_label": 1,
+        "source_image_id": "006",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/007.jpg",
+        "gt": "CFD/gt/007.png",
+        "image_level_label": 1,
+        "source_image_id": "007",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/008.jpg",
+        "gt": "CFD/gt/008.png",
+        "image_level_label": 1,
+        "source_image_id": "008",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/009.jpg",
+        "gt": "CFD/gt/009.png",
+        "image_level_label": 1,
+        "source_image_id": "009",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/010.jpg",
+        "gt": "CFD/gt/010.png",
+        "image_level_label": 1,
+        "source_image_id": "010",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/011.jpg",
+        "gt": "CFD/gt/011.png",
+        "image_level_label": 1,
+        "source_image_id": "011",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/012.jpg",
+        "gt": "CFD/gt/012.png",
+        "image_level_label": 1,
+        "source_image_id": "012",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/013.jpg",
+        "gt": "CFD/gt/013.png",
+        "image_level_label": 1,
+        "source_image_id": "013",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/014.jpg",
+        "gt": "CFD/gt/014.png",
+        "image_level_label": 1,
+        "source_image_id": "014",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/015.jpg",
+        "gt": "CFD/gt/015.png",
+        "image_level_label": 1,
+        "source_image_id": "015",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/016.jpg",
+        "gt": "CFD/gt/016.png",
+        "image_level_label": 1,
+        "source_image_id": "016",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/017.jpg",
+        "gt": "CFD/gt/017.png",
+        "image_level_label": 1,
+        "source_image_id": "017",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/018.jpg",
+        "gt": "CFD/gt/018.png",
+        "image_level_label": 1,
+        "source_image_id": "018",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/019.jpg",
+        "gt": "CFD/gt/019.png",
+        "image_level_label": 1,
+        "source_image_id": "019",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/020.jpg",
+        "gt": "CFD/gt/020.png",
+        "image_level_label": 1,
+        "source_image_id": "020",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/021.jpg",
+        "gt": "CFD/gt/021.png",
+        "image_level_label": 1,
+        "source_image_id": "021",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/022.jpg",
+        "gt": "CFD/gt/022.png",
+        "image_level_label": 1,
+        "source_image_id": "022",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/023.jpg",
+        "gt": "CFD/gt/023.png",
+        "image_level_label": 1,
+        "source_image_id": "023",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/024.jpg",
+        "gt": "CFD/gt/024.png",
+        "image_level_label": 1,
+        "source_image_id": "024",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/025.jpg",
+        "gt": "CFD/gt/025.png",
+        "image_level_label": 1,
+        "source_image_id": "025",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/026.jpg",
+        "gt": "CFD/gt/026.png",
+        "image_level_label": 1,
+        "source_image_id": "026",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/027.jpg",
+        "gt": "CFD/gt/027.png",
+        "image_level_label": 1,
+        "source_image_id": "027",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/028.jpg",
+        "gt": "CFD/gt/028.png",
+        "image_level_label": 1,
+        "source_image_id": "028",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/029.jpg",
+        "gt": "CFD/gt/029.png",
+        "image_level_label": 1,
+        "source_image_id": "029",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/030.jpg",
+        "gt": "CFD/gt/030.png",
+        "image_level_label": 1,
+        "source_image_id": "030",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/031.jpg",
+        "gt": "CFD/gt/031.png",
+        "image_level_label": 1,
+        "source_image_id": "031",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/032.jpg",
+        "gt": "CFD/gt/032.png",
+        "image_level_label": 1,
+        "source_image_id": "032",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/033.jpg",
+        "gt": "CFD/gt/033.png",
+        "image_level_label": 1,
+        "source_image_id": "033",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/034.jpg",
+        "gt": "CFD/gt/034.png",
+        "image_level_label": 1,
+        "source_image_id": "034",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/035.jpg",
+        "gt": "CFD/gt/035.png",
+        "image_level_label": 1,
+        "source_image_id": "035",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/036.jpg",
+        "gt": "CFD/gt/036.png",
+        "image_level_label": 1,
+        "source_image_id": "036",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/037.jpg",
+        "gt": "CFD/gt/037.png",
+        "image_level_label": 1,
+        "source_image_id": "037",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/038.jpg",
+        "gt": "CFD/gt/038.png",
+        "image_level_label": 1,
+        "source_image_id": "038",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/039.jpg",
+        "gt": "CFD/gt/039.png",
+        "image_level_label": 1,
+        "source_image_id": "039",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/040.jpg",
+        "gt": "CFD/gt/040.png",
+        "image_level_label": 1,
+        "source_image_id": "040",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/041.jpg",
+        "gt": "CFD/gt/041.png",
+        "image_level_label": 1,
+        "source_image_id": "041",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/042.jpg",
+        "gt": "CFD/gt/042.png",
+        "image_level_label": 1,
+        "source_image_id": "042",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/043.jpg",
+        "gt": "CFD/gt/043.png",
+        "image_level_label": 1,
+        "source_image_id": "043",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/044.jpg",
+        "gt": "CFD/gt/044.png",
+        "image_level_label": 1,
+        "source_image_id": "044",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/045.jpg",
+        "gt": "CFD/gt/045.png",
+        "image_level_label": 1,
+        "source_image_id": "045",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/046.jpg",
+        "gt": "CFD/gt/046.png",
+        "image_level_label": 1,
+        "source_image_id": "046",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/047.jpg",
+        "gt": "CFD/gt/047.png",
+        "image_level_label": 1,
+        "source_image_id": "047",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/048.jpg",
+        "gt": "CFD/gt/048.png",
+        "image_level_label": 1,
+        "source_image_id": "048",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/049.jpg",
+        "gt": "CFD/gt/049.png",
+        "image_level_label": 1,
+        "source_image_id": "049",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/050.jpg",
+        "gt": "CFD/gt/050.png",
+        "image_level_label": 1,
+        "source_image_id": "050",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/051.jpg",
+        "gt": "CFD/gt/051.png",
+        "image_level_label": 1,
+        "source_image_id": "051",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/052.jpg",
+        "gt": "CFD/gt/052.png",
+        "image_level_label": 1,
+        "source_image_id": "052",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/053.jpg",
+        "gt": "CFD/gt/053.png",
+        "image_level_label": 1,
+        "source_image_id": "053",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/054.jpg",
+        "gt": "CFD/gt/054.png",
+        "image_level_label": 1,
+        "source_image_id": "054",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/055.jpg",
+        "gt": "CFD/gt/055.png",
+        "image_level_label": 1,
+        "source_image_id": "055",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/056.jpg",
+        "gt": "CFD/gt/056.png",
+        "image_level_label": 1,
+        "source_image_id": "056",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/057.jpg",
+        "gt": "CFD/gt/057.png",
+        "image_level_label": 1,
+        "source_image_id": "057",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/058.jpg",
+        "gt": "CFD/gt/058.png",
+        "image_level_label": 1,
+        "source_image_id": "058",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/059.jpg",
+        "gt": "CFD/gt/059.png",
+        "image_level_label": 1,
+        "source_image_id": "059",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/060.jpg",
+        "gt": "CFD/gt/060.png",
+        "image_level_label": 1,
+        "source_image_id": "060",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/061.jpg",
+        "gt": "CFD/gt/061.png",
+        "image_level_label": 1,
+        "source_image_id": "061",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/062.jpg",
+        "gt": "CFD/gt/062.png",
+        "image_level_label": 1,
+        "source_image_id": "062",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/063.jpg",
+        "gt": "CFD/gt/063.png",
+        "image_level_label": 1,
+        "source_image_id": "063",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/064.jpg",
+        "gt": "CFD/gt/064.png",
+        "image_level_label": 1,
+        "source_image_id": "064",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/065.jpg",
+        "gt": "CFD/gt/065.png",
+        "image_level_label": 1,
+        "source_image_id": "065",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/066.jpg",
+        "gt": "CFD/gt/066.png",
+        "image_level_label": 1,
+        "source_image_id": "066",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/067.jpg",
+        "gt": "CFD/gt/067.png",
+        "image_level_label": 1,
+        "source_image_id": "067",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/068.jpg",
+        "gt": "CFD/gt/068.png",
+        "image_level_label": 1,
+        "source_image_id": "068",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/069.jpg",
+        "gt": "CFD/gt/069.png",
+        "image_level_label": 1,
+        "source_image_id": "069",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/070.jpg",
+        "gt": "CFD/gt/070.png",
+        "image_level_label": 1,
+        "source_image_id": "070",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/071.jpg",
+        "gt": "CFD/gt/071.png",
+        "image_level_label": 1,
+        "source_image_id": "071",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/072.jpg",
+        "gt": "CFD/gt/072.png",
+        "image_level_label": 1,
+        "source_image_id": "072",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/073.jpg",
+        "gt": "CFD/gt/073.png",
+        "image_level_label": 1,
+        "source_image_id": "073",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/074.jpg",
+        "gt": "CFD/gt/074.png",
+        "image_level_label": 1,
+        "source_image_id": "074",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/075.jpg",
+        "gt": "CFD/gt/075.png",
+        "image_level_label": 1,
+        "source_image_id": "075",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/076.jpg",
+        "gt": "CFD/gt/076.png",
+        "image_level_label": 1,
+        "source_image_id": "076",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/077.jpg",
+        "gt": "CFD/gt/077.png",
+        "image_level_label": 1,
+        "source_image_id": "077",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/078.jpg",
+        "gt": "CFD/gt/078.png",
+        "image_level_label": 1,
+        "source_image_id": "078",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/079.jpg",
+        "gt": "CFD/gt/079.png",
+        "image_level_label": 1,
+        "source_image_id": "079",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/080.jpg",
+        "gt": "CFD/gt/080.png",
+        "image_level_label": 1,
+        "source_image_id": "080",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/081.jpg",
+        "gt": "CFD/gt/081.png",
+        "image_level_label": 1,
+        "source_image_id": "081",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/082.jpg",
+        "gt": "CFD/gt/082.png",
+        "image_level_label": 1,
+        "source_image_id": "082",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/083.jpg",
+        "gt": "CFD/gt/083.png",
+        "image_level_label": 1,
+        "source_image_id": "083",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/084.jpg",
+        "gt": "CFD/gt/084.png",
+        "image_level_label": 1,
+        "source_image_id": "084",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/085.jpg",
+        "gt": "CFD/gt/085.png",
+        "image_level_label": 1,
+        "source_image_id": "085",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/086.jpg",
+        "gt": "CFD/gt/086.png",
+        "image_level_label": 1,
+        "source_image_id": "086",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/087.jpg",
+        "gt": "CFD/gt/087.png",
+        "image_level_label": 1,
+        "source_image_id": "087",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/088.jpg",
+        "gt": "CFD/gt/088.png",
+        "image_level_label": 1,
+        "source_image_id": "088",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/089.jpg",
+        "gt": "CFD/gt/089.png",
+        "image_level_label": 1,
+        "source_image_id": "089",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/090.jpg",
+        "gt": "CFD/gt/090.png",
+        "image_level_label": 1,
+        "source_image_id": "090",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/091.jpg",
+        "gt": "CFD/gt/091.png",
+        "image_level_label": 1,
+        "source_image_id": "091",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/092.jpg",
+        "gt": "CFD/gt/092.png",
+        "image_level_label": 1,
+        "source_image_id": "092",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/093.jpg",
+        "gt": "CFD/gt/093.png",
+        "image_level_label": 1,
+        "source_image_id": "093",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/094.jpg",
+        "gt": "CFD/gt/094.png",
+        "image_level_label": 1,
+        "source_image_id": "094",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/095.jpg",
+        "gt": "CFD/gt/095.png",
+        "image_level_label": 1,
+        "source_image_id": "095",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/096.jpg",
+        "gt": "CFD/gt/096.png",
+        "image_level_label": 1,
+        "source_image_id": "096",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/097.jpg",
+        "gt": "CFD/gt/097.png",
+        "image_level_label": 1,
+        "source_image_id": "097",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/098.jpg",
+        "gt": "CFD/gt/098.png",
+        "image_level_label": 1,
+        "source_image_id": "098",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/099.jpg",
+        "gt": "CFD/gt/099.png",
+        "image_level_label": 1,
+        "source_image_id": "099",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/100.jpg",
+        "gt": "CFD/gt/100.png",
+        "image_level_label": 1,
+        "source_image_id": "100",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/101.jpg",
+        "gt": "CFD/gt/101.png",
+        "image_level_label": 1,
+        "source_image_id": "101",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/102.jpg",
+        "gt": "CFD/gt/102.png",
+        "image_level_label": 1,
+        "source_image_id": "102",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/103.jpg",
+        "gt": "CFD/gt/103.png",
+        "image_level_label": 1,
+        "source_image_id": "103",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/104.jpg",
+        "gt": "CFD/gt/104.png",
+        "image_level_label": 1,
+        "source_image_id": "104",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/105.jpg",
+        "gt": "CFD/gt/105.png",
+        "image_level_label": 1,
+        "source_image_id": "105",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/106.jpg",
+        "gt": "CFD/gt/106.png",
+        "image_level_label": 1,
+        "source_image_id": "106",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/107.jpg",
+        "gt": "CFD/gt/107.png",
+        "image_level_label": 1,
+        "source_image_id": "107",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/108.jpg",
+        "gt": "CFD/gt/108.png",
+        "image_level_label": 1,
+        "source_image_id": "108",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/109.jpg",
+        "gt": "CFD/gt/109.png",
+        "image_level_label": 1,
+        "source_image_id": "109",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/110.jpg",
+        "gt": "CFD/gt/110.png",
+        "image_level_label": 1,
+        "source_image_id": "110",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/111.jpg",
+        "gt": "CFD/gt/111.png",
+        "image_level_label": 1,
+        "source_image_id": "111",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/112.jpg",
+        "gt": "CFD/gt/112.png",
+        "image_level_label": 1,
+        "source_image_id": "112",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/113.jpg",
+        "gt": "CFD/gt/113.png",
+        "image_level_label": 1,
+        "source_image_id": "113",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/114.jpg",
+        "gt": "CFD/gt/114.png",
+        "image_level_label": 1,
+        "source_image_id": "114",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/115.jpg",
+        "gt": "CFD/gt/115.png",
+        "image_level_label": 1,
+        "source_image_id": "115",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/116.jpg",
+        "gt": "CFD/gt/116.png",
+        "image_level_label": 1,
+        "source_image_id": "116",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/117.jpg",
+        "gt": "CFD/gt/117.png",
+        "image_level_label": 1,
+        "source_image_id": "117",
+        "use_gt_in_training": false
+      },
+      {
+        "image": "CFD/image/118.jpg",
+        "gt": "CFD/gt/118.png",
+        "image_level_label": 1,
+        "source_image_id": "118",
+        "use_gt_in_training": false
+      }
+    ]
+  }
+}

@@ -39,7 +39,7 @@ teacher:
   max_mask_area_ratio: 0.30
   min_mask_area_px:    16
   text_prompts: ["crack"]
-  ensemble_prompts: ["crack", "a crack", "road crack", "pavement crack"]
+  ensemble_prompts: ["crack", "road crack", "thin crack", "fissure"]
   enable_hflip_tta: false
   autocast_dtype: bfloat16
   mc_samples: 1
